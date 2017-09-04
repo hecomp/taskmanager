@@ -1,6 +1,8 @@
 package common
 
-import "gopkg.in/mgo.v2"
+import (
+	"gopkg.in/mgo.v2"
+)
 
 type mongo struct {
 	Tasks *mgo.Collection
